@@ -9,6 +9,7 @@ replace the environment variables with your own:
 Generate and self sign key.key and cert.pem files for ssl encryption using openssl
 
 Note for competent devs: We messed up time management so the codes pretty dirty and messy and the website could've been way better. Don't judge us for this lol.
+Reuse this code at your own risk.
 
 Mysql db setup instructions:
 1. Make sure mysql is installed and the server is running on your computer
