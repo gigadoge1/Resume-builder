@@ -1,0 +1,24 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "Resume builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "resume-builder"
+  },
+  "author": "vansh, akshaj",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.25.0",
+    "argon2": "^0.44.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mysql2": "^3.15.2"
+  }
+}
