@@ -72,29 +72,6 @@ app.get("/dashboard", (req, res) => {
         res.redirect("/");
     }
 })
-/*app.get("/createResume", (req, res) => {
-    const d = {
-        "name": "Alex Johnson",
-        "profession": "Senior Software Engineer",
-        "experienceLevel": "Expert",
-        "summary": "Highly accomplished and results-driven Senior Software Engineer with over 8 years of extensive experience in designing, developing, and deploying robust, scalable, and high-performance software solutions. Proven ability to lead complex projects from conception to successful completion, mentor junior developers, and optimize system architectures for maximum efficiency and reliability. Passionate about leveraging cutting-edge technologies to solve intricate business challenges and drive innovation.",
-        "projectsOrSkills": [
-            "Full-Stack Web Development (React, Node.js, Python/Django)",
-            "Cloud Infrastructure Management (AWS, Azure, GCP)",
-            "Microservices Architecture & RESTful APIs",
-            "Database Design & Optimization (SQL, NoSQL)",
-            "Agile Methodologies (Scrum, Kanban)",
-            "Containerization & Orchestration (Docker, Kubernetes)",
-            "DevOps & CI/CD Pipelines (Jenkins, GitLab CI)",
-            "Machine Learning Fundamentals & Data Analytics",
-            "System Design & Scalability",
-            "Test-Driven Development (TDD) & Unit Testing"
-        ],
-        "industry": "Technology and Software Development",
-        "experience": "Spearheaded the development of a next-generation e-commerce platform, leading a team of 5 engineers from initial design through to successful deployment, resulting in a 30% increase in user engagement and a 15% reduction in page load times. Architected and implemented a scalable microservices architecture, significantly improving system resilience and enabling seamless integration with third-party APIs. Optimized critical database queries and introduced caching strategies, enhancing application performance by over 40%. Mentored and onboarded new team members, fostering a collaborative environment and contributing to professional growth within the engineering department. Consistently delivered high-quality code, ensuring adherence to best practices and coding standards through rigorous code reviews and automated testing."
-        }
-    res.render("createResume", {data: d})
-});*/
 
 app.post("/signup", (req, res) => {
     async function prodHash() {
