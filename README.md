@@ -12,7 +12,7 @@ Resume builder for a hackathon
    node -v
    npm -v
 
-# Dlone this github repo:
+# Clone this github repo:
     git clone https://github.com/gigadoge1/Resume-builder.git
 
 # Google AI studio api
