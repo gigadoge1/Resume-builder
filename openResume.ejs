@@ -115,7 +115,7 @@
             <div class="container-fluid">
         `;
         let acdata = <%- JSON.stringify(data) %>;
-        acdata = JSON.parse(acdata.resudata);
+        acdata = JSON.parse(acdata);
         console.log(acdata)
         for(const id in acdata) { 
             if (typeof(acdata[id]) !== "object") { 
