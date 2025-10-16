@@ -16,8 +16,8 @@ Mysql db setup instructions:
 2. login as root with mysql -u root -p and enter password
 3. create db with ```CREATE DATABASE database_name;```
 4. create user with ```CREATE USER resubuild@localhost IDENTIFIED BY 'password';```(this is the password which has to kept in .env)
-5. grant priveleges to user with  ```GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, REFERENCES, ALTER ON resuBuild.* TO`resubuild@localhost```
-6. log out and login as the new user
+5. grant priveleges to user with  ```GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, REFERENCES, ALTER ON resuBuild.* TO`resubuild@localhost;```
+6. log out and login as the new user with ```exit``` and ```mysql -u resubuild -p``` and enter the password you put.
 7. ```USE resuBuild;```
 8. ```CREATE TABLE accounts (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(20) NOT NULL UNIQUE, email VARCHAR(30) NOT NULL UNIQUE, password VARCHAR(97) NOT NULL);```
 9. ```CREATE TABLE resumes (resumeID INT AUTO_INCREMENT PRIMARY KEY, resudata MEDIUMTEXT, name VARCHAR(30), FOREIGN KEY (uid) REFERENCES accounts(id));```
