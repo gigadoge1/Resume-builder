@@ -27,5 +27,7 @@ Mysql db setup instructions:
 8. ```CREATE TABLE accounts (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(20) NOT NULL UNIQUE, email VARCHAR(30) NOT NULL UNIQUE, password VARCHAR(97) NOT NULL);```
 9. ```CREATE TABLE resumes (resumeID INT AUTO_INCREMENT PRIMARY KEY, resudata MEDIUMTEXT, name VARCHAR(30), FOREIGN KEY (uid) REFERENCES accounts(id));```
 
+run the project with node index.js when you're in the folders directory
+
 It's possible that I missed something here.
 In case something doesn't work, contact me so I can explain the full setup procedure.
