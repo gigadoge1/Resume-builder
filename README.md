@@ -1,9 +1,9 @@
 # Resume-builder
-Resume builder for a tech event
+Resume builder for a hackathon
 
 replace the environment variables with your own:
 1. password for mysql database
-2. googli ai studio api key
+2. google ai studio api key
 3. user token for session in express js
 
 Generate and self sign key.key and cert.pem files for ssl encryption using openssl
