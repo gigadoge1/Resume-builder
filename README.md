@@ -41,7 +41,7 @@ download it from [mysql's website](https://dev.mysql.com/downloads/mysql/) to ma
 8. ```CREATE TABLE accounts (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(20) NOT NULL UNIQUE, email VARCHAR(30) NOT NULL UNIQUE, password VARCHAR(97) NOT NULL);```
 9. ```CREATE TABLE resumes (resumeID INT AUTO_INCREMENT PRIMARY KEY, resudata MEDIUMTEXT, name VARCHAR(30), FOREIGN KEY (uid) REFERENCES accounts(id));```
 
-Go to the cloned folder directory and run ```npm install``` to install the necesary packages.
+Go to the cloned folder directory using ```cd folderName``` (replace folderName) command and run ```npm install``` to install the necesary packages.
 run the project with ```node index.js``` when you're in the folders directory
 website runs at https://localhost:3000
 When you run the website, you may be stopped with prompts saying the website is unsafe or dangerous but go to advanced options and visit the website anyway
