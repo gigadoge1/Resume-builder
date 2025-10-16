@@ -9,6 +9,11 @@ replace the environment variables with your own:
 2. google ai studio api key
 3. user token for session in express js (you could type a random combination of letters for this to test it)
 
+the variables should be name like the following:
+1. PW (password for mysql user which you’ll use)
+2. GOOGLE_AI_API_KEY (get it from google ai studio’s api)
+3. UTOKEN (user token for express js session just type in random stuff)
+
 Generate and self sign key.key and cert.pem files for ssl encryption using openssl
 ```openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 30 -nodes```
 feel free to change the options
