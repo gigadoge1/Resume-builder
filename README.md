@@ -1,6 +1,9 @@
 # Resume-builder
 Resume builder for a hackathon
 
+Make sure you have node js installed
+run ```npm install``` in the folder directory to install necessary packages
+
 replace the environment variables with your own:
 1. password for mysql (password that your mysql user uses)
 2. google ai studio api key
