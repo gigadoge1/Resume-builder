@@ -7,7 +7,7 @@ Make sure you have node js installed from https://nodejs.org/en/download
 run ```npm install``` in the folder directory to install necessary packages
 
 # Google ai studio api
-if you face any problem with the api key written in the .env, generate your own api from google ai studio and replace the current one with that in .env file. 
+Generate an api key from google ai studio api and put that key after ```GOOGLE_AI_API_KEY=``` in the .env file
 
 # download mysql
 download it from https://dev.mysql.com/downloads/mysql/8.0.html to make the database work
