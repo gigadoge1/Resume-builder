@@ -33,6 +33,7 @@ Mysql db setup instructions:
 9. ```CREATE TABLE resumes (resumeID INT AUTO_INCREMENT PRIMARY KEY, resudata MEDIUMTEXT, name VARCHAR(30), FOREIGN KEY (uid) REFERENCES accounts(id));```
 
 run the project with node index.js when you're in the folders directory
+website runs at https://localhost:3000
 
 It's possible that I missed something here.
 In case something doesn't work, contact me so I can explain the full setup procedure.
