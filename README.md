@@ -2,11 +2,13 @@
 Resume builder for a hackathon
 
 replace the environment variables with your own:
-1. password for mysql database
+1. password for mysql (password that your mysql user uses)
 2. google ai studio api key
-3. user token for session in express js
+3. user token for session in express js (you could type a random combination of letters for this to test it)
 
 Generate and self sign key.key and cert.pem files for ssl encryption using openssl
+```openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 30 -nodes```
+feel free to change the options
 
 Note for competent devs: We messed up time management so the codes pretty dirty and messy and the website could've been way better. Don't judge us for this lol.
 Reuse this code at your own risk.
